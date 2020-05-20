@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.resultsTextBox = new System.Windows.Forms.TextBox();
             this.mcBtn = new System.Windows.Forms.Button();
@@ -57,6 +58,7 @@
             this.sixBtn = new System.Windows.Forms.Button();
             this.eightBtn = new System.Windows.Forms.Button();
             this.modBtn = new System.Windows.Forms.Button();
+            this.textBoxTip = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // resultsTextBox
@@ -69,6 +71,7 @@
             this.resultsTextBox.Name = "resultsTextBox";
             this.resultsTextBox.Size = new System.Drawing.Size(315, 44);
             this.resultsTextBox.TabIndex = 0;
+            this.resultsTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // mcBtn
             // 
@@ -119,6 +122,7 @@
             this.backspaceBtn.TabIndex = 6;
             this.backspaceBtn.Text = "Backspace";
             this.backspaceBtn.UseVisualStyleBackColor = true;
+            this.backspaceBtn.Click += new System.EventHandler(this.backspaceBtn_Click);
             // 
             // clearCurrentBtn
             // 
@@ -139,6 +143,7 @@
             this.clearAllBtn.TabIndex = 8;
             this.clearAllBtn.Text = "C";
             this.clearAllBtn.UseVisualStyleBackColor = true;
+            this.clearAllBtn.Click += new System.EventHandler(this.clearAllBtn_Click);
             // 
             // posNegBtn
             // 
@@ -159,6 +164,7 @@
             this.sqrtBtn.TabIndex = 10;
             this.sqrtBtn.Text = "Sqrt";
             this.sqrtBtn.UseVisualStyleBackColor = true;
+            this.sqrtBtn.Click += new System.EventHandler(this.sqrtBtn_Click);
             // 
             // oneDivXBtn
             // 
@@ -169,6 +175,7 @@
             this.oneDivXBtn.TabIndex = 11;
             this.oneDivXBtn.Text = "1/x";
             this.oneDivXBtn.UseVisualStyleBackColor = true;
+            this.oneDivXBtn.Click += new System.EventHandler(this.oneDivXBtn_Click);
             // 
             // equalBtn
             // 
@@ -190,6 +197,7 @@
             this.divBtn.TabIndex = 13;
             this.divBtn.Text = "/";
             this.divBtn.UseVisualStyleBackColor = true;
+            this.divBtn.Click += new System.EventHandler(this.divBtn_Click);
             // 
             // multiBtn
             // 
@@ -201,6 +209,7 @@
             this.multiBtn.TabIndex = 14;
             this.multiBtn.Text = "*";
             this.multiBtn.UseVisualStyleBackColor = true;
+            this.multiBtn.Click += new System.EventHandler(this.multiBtn_Click);
             // 
             // minusBtn
             // 
@@ -212,6 +221,7 @@
             this.minusBtn.TabIndex = 15;
             this.minusBtn.Text = "-";
             this.minusBtn.UseVisualStyleBackColor = true;
+            this.minusBtn.Click += new System.EventHandler(this.minusBtn_Click);
             // 
             // plusBtn
             // 
@@ -223,6 +233,7 @@
             this.plusBtn.TabIndex = 16;
             this.plusBtn.Text = "+";
             this.plusBtn.UseVisualStyleBackColor = true;
+            this.plusBtn.Click += new System.EventHandler(this.plusBtn_Click);
             // 
             // doubleBtn
             // 
@@ -344,6 +355,7 @@
             this.modBtn.TabIndex = 28;
             this.modBtn.Text = "%";
             this.modBtn.UseVisualStyleBackColor = true;
+            this.modBtn.Click += new System.EventHandler(this.modBtn_Click);
             // 
             // Main
             // 
@@ -420,6 +432,7 @@
         private System.Windows.Forms.Button sixBtn;
         private System.Windows.Forms.Button eightBtn;
         private System.Windows.Forms.Button modBtn;
+        private System.Windows.Forms.ToolTip textBoxTip;
     }
 }
 
