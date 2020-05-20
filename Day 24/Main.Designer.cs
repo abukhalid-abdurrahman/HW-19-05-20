@@ -173,7 +173,7 @@
             // equalBtn
             // 
             this.equalBtn.ForeColor = System.Drawing.Color.DarkCyan;
-            this.equalBtn.Location = new System.Drawing.Point(229, 249);
+            this.equalBtn.Location = new System.Drawing.Point(179, 249);
             this.equalBtn.Name = "equalBtn";
             this.equalBtn.Size = new System.Drawing.Size(44, 38);
             this.equalBtn.TabIndex = 12;
@@ -217,7 +217,7 @@
             // 
             this.plusBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.plusBtn.ForeColor = System.Drawing.Color.DarkCyan;
-            this.plusBtn.Location = new System.Drawing.Point(179, 249);
+            this.plusBtn.Location = new System.Drawing.Point(229, 250);
             this.plusBtn.Name = "plusBtn";
             this.plusBtn.Size = new System.Drawing.Size(44, 38);
             this.plusBtn.TabIndex = 16;
