@@ -9,6 +9,7 @@ namespace Day_24
         private double B = 0;
         private double C = 0;
         private double X = 0;
+        private double inputedNumber = 0;
         public Main()
         {
             InitializeComponent();
@@ -16,6 +17,11 @@ namespace Day_24
 
         private void clearAllBtn_Click(object sender, EventArgs e)
         {
+            A = 0;
+            B = 0;
+            C = 0;
+            X = 0;
+            inputedNumber = 0;
             resultsTextBox.Text = string.Empty;
         }
 
@@ -83,6 +89,38 @@ namespace Day_24
         private void sqrtBtn_Click(object sender, EventArgs e)
         {
             C = MathManager.Sqrt(X);
+        }
+
+        private void mPlusBtn_Click(object sender, EventArgs e)
+        {
+            MemoryManager.MemoryPlus(inputedNumber);
+        }
+
+        private void msBtn_Click(object sender, EventArgs e)
+        {
+            MemoryManager.MemoryStore(inputedNumber);
+        }
+
+        private void mrBtn_Click(object sender, EventArgs e)
+        {
+            C = MemoryManager.MemoryRecall();
+        }
+
+        private void mcBtn_Click(object sender, EventArgs e)
+        {
+            MemoryManager.MemoryClear();
+        }
+
+        private void clearCurrentBtn_Click(object sender, EventArgs e)
+        {
+            inputedNumber = 0;
+            resultsTextBox.Text = string.Empty;
+        }
+
+        private void posNegBtn_Click(object sender, EventArgs e)
+        {
+            inputedNumber *= (-1);
+            resultsTextBox.Text = inputedNumber.ToString();
         }
     }
 }

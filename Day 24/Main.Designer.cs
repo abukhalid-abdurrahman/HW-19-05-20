@@ -82,6 +82,7 @@
             this.mcBtn.TabIndex = 2;
             this.mcBtn.Text = "MC";
             this.mcBtn.UseVisualStyleBackColor = true;
+            this.mcBtn.Click += new System.EventHandler(this.mcBtn_Click);
             // 
             // mrBtn
             // 
@@ -92,6 +93,7 @@
             this.mrBtn.TabIndex = 3;
             this.mrBtn.Text = "MR";
             this.mrBtn.UseVisualStyleBackColor = true;
+            this.mrBtn.Click += new System.EventHandler(this.mrBtn_Click);
             // 
             // msBtn
             // 
@@ -102,6 +104,7 @@
             this.msBtn.TabIndex = 4;
             this.msBtn.Text = "MS";
             this.msBtn.UseVisualStyleBackColor = true;
+            this.msBtn.Click += new System.EventHandler(this.msBtn_Click);
             // 
             // mPlusBtn
             // 
@@ -112,6 +115,7 @@
             this.mPlusBtn.TabIndex = 5;
             this.mPlusBtn.Text = "M+";
             this.mPlusBtn.UseVisualStyleBackColor = true;
+            this.mPlusBtn.Click += new System.EventHandler(this.mPlusBtn_Click);
             // 
             // backspaceBtn
             // 
@@ -133,6 +137,7 @@
             this.clearCurrentBtn.TabIndex = 7;
             this.clearCurrentBtn.Text = "CE";
             this.clearCurrentBtn.UseVisualStyleBackColor = true;
+            this.clearCurrentBtn.Click += new System.EventHandler(this.clearCurrentBtn_Click);
             // 
             // clearAllBtn
             // 
@@ -154,6 +159,7 @@
             this.posNegBtn.TabIndex = 9;
             this.posNegBtn.Text = "+/-";
             this.posNegBtn.UseVisualStyleBackColor = true;
+            this.posNegBtn.Click += new System.EventHandler(this.posNegBtn_Click);
             // 
             // sqrtBtn
             // 

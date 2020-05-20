@@ -8,7 +8,7 @@
         {
             memory = 0;
         }
-        public static double MemoryRecall(double A)
+        public static double MemoryRecall()
         {
             return memory;
         }
