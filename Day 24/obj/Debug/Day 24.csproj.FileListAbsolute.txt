@@ -1,1 +1,9 @@
 C:\Users\Faridun\Allif Academy\Day 24\Day 24\bin\Debug\Day 24.exe.config
+C:\Users\Faridun\Allif Academy\Day 24\Day 24\bin\Debug\Day 24.exe
+C:\Users\Faridun\Allif Academy\Day 24\Day 24\bin\Debug\Day 24.pdb
+C:\Users\Faridun\Allif Academy\Day 24\Day 24\obj\Debug\Day 24.csprojResolveAssemblyReference.cache
+C:\Users\Faridun\Allif Academy\Day 24\Day 24\obj\Debug\Day_24.Main.resources
+C:\Users\Faridun\Allif Academy\Day 24\Day 24\obj\Debug\Day_24.Properties.Resources.resources
+C:\Users\Faridun\Allif Academy\Day 24\Day 24\obj\Debug\Day 24.csproj.GenerateResource.Cache
+C:\Users\Faridun\Allif Academy\Day 24\Day 24\obj\Debug\Day 24.exe
+C:\Users\Faridun\Allif Academy\Day 24\Day 24\obj\Debug\Day 24.pdb
